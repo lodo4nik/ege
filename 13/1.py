@@ -1,0 +1,2 @@
+print(bin(204)[2:].zfill(8), bin(111)[2:].zfill(8), bin(155)[2:].zfill(8), bin(128)[2:].zfill(8), sep=".")
+print(bin(204)[2:].zfill(8), bin(111)[2:].zfill(8), bin(152)[2:].zfill(8), bin(0)[2:].zfill(8), sep=".")
