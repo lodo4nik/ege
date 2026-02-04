@@ -7,11 +7,11 @@
 #     return divs
 #
 # for n in range(500_000, 500_200):
-#     e_divs = [i for i in find_divs(n) if len(find_divs(i))==0]
-#     if len(e_divs) == 0:
+#     prime_divs = [i for i in find_divs(n) if len(find_divs(i))==0]
+#     if len(prime_divs) == 0:
 #         r = 0
 #     else:
-#         r = sum(e_divs)
+#         r = sum(prime_divs)
 #         if r > 2000 and str(r).endswith("7"):
 #             print(n, r)
 
